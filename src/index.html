@@ -42,7 +42,7 @@
         <p class="descricao ">3) Clique na opção de cifra ou decifrar.</p>
         <form class="form">
           <!--campo para mensagem-->
-          <textarea id="boxMensagem" type="text" class="box-mensagem" cols="30" rows="6"
+          <textarea id="boxMensagem" type="text" class="boxMensagem" cols="30" rows="6"
             placeholder="Insira a sua mensagem" spellcheck="false" required></textarea>
           <!--escolher o valor do desclocamento-->
           <br>
@@ -50,9 +50,16 @@
             max="25">
           <!--botao codificar mensagem-->
           <br>
-          <button id="cifrar" class="btn btn-primeiro"onclick="cifrar()" >Cifrar</button>
+          <input id="cifrar" type="button" class="btn btn-primeiro" value="cifrar" >
           <!--botao descodificar mensagem-->
-          <button id="descifrar" class="btn btn-primeiro" onclick="descifrar()">Descifrar</button>
+          <input id="descifrar" type="button" class="btn btn-primeiro" value="descifrar">
+          <br>
+          <br>
+          <section id="result" style="display: none;">
+            <h5 class="primeira-coluna">Resultado: </h5>
+            <input id="result-name" class="boxMensagem2"></input>
+          </section>
+          
         </form>
       </div>
 
@@ -63,6 +70,7 @@
       
     </div>
   </div>
+    
   <script src="index.js" type="module"></script>
 </body>
 
