@@ -10,8 +10,6 @@
 </head>
 
 <body>
-
-
   <div class="contaneir">
     <div id="page01" class="conteudo conteudo-primeiro">
       <!--tela de introdução ao site e boas vindas-->
@@ -31,7 +29,6 @@
           participar.</a>
       </div>
     </div>
-
     <div id="page02" class="conteudo conteudo-segundo">
       <!--tela para ensiando a usar-->
       <div class="primeira-coluna">
@@ -46,31 +43,26 @@
             placeholder="Insira a sua mensagem" spellcheck="false" required></textarea>
           <!--escolher o valor do desclocamento-->
           <br>
-          <input id="offset" class="btn-value"  value="1" size="25" type="number" min="1"
-            max="25">
+          <input id="offset" class="btn-value" value="1" size="25" type="number" min="1" max="25">
           <!--botao codificar mensagem-->
           <br>
-          <input id="cifrar" type="button" class="btn btn-primeiro" value="cifrar" >
+          <input id="cifrar" type="button" class="btn btn-primeiro" value="cifrar">
           <!--botao descodificar mensagem-->
-          <input id="descifrar" type="button" class="btn btn-primeiro" value="descifrar">
+          <input id="decifrar" type="button" class="btn btn-primeiro" value="decifrar">
           <br>
           <br>
           <section id="result" style="display: none;">
             <h5 class="primeira-coluna">Resultado: </h5>
-            <input id="result-name" class="boxMensagem2"></input>
+            <input id="result-name">
           </section>
-          
         </form>
       </div>
-
       <div class="segunda-coluna">
         <h2 class="titulo titulo-segundo">Obrigada pela visita!</h2>
         <button id="voltar" class="btn btn-primeiro">Voltar</button>
-      </div>      
-      
+      </div>
     </div>
   </div>
-    
   <script src="index.js" type="module"></script>
 </body>
 
