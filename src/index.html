@@ -40,25 +40,25 @@
         <p class="descricao ">1) Você vai escrever uma mensagem bem legal.</p>
         <p class="descricao ">2) Escolha o valor do deslocamento (1 até 25).</p>
         <p class="descricao ">3) Clique na opção de cifra ou decifrar.</p>
-        <form class="formulario">
+        <form class="form">
           <!--campo para mensagem-->
-          <textarea id="mensagem" type="text" class="box-mensagem" cols="30" rows="6"
+          <textarea id="boxMensagem" type="text" class="box-mensagem" cols="30" rows="6"
             placeholder="Insira a sua mensagem" spellcheck="false" required></textarea>
           <!--escolher o valor do desclocamento-->
           <br>
-          <input id="deslocamento" class="btn-value" name="deslocamento" value="1" size="25" type="number" min="1"
+          <input id="offset" class="btn-value"  value="1" size="25" type="number" min="1"
             max="25">
           <!--botao codificar mensagem-->
           <br>
-          <button id="cifrar" class="btn btn-primeiro">Cifrar</button>
+          <button id="cifrar" class="btn btn-primeiro"onclick="cifrar()" >Cifrar</button>
           <!--botao descodificar mensagem-->
-          <button id="descifrar" class="btn btn-primeiro">Descifrar</button>
+          <button id="descifrar" class="btn btn-primeiro" onclick="descifrar()">Descifrar</button>
         </form>
       </div>
 
       <div class="segunda-coluna">
         <h2 class="titulo titulo-segundo">Obrigada pela visita!</h2>
-        <button id="Voltar" class="btn btn-primeiro">Voltar</button>
+        <button id="voltar" class="btn btn-primeiro">Voltar</button>
       </div>      
       
     </div>
