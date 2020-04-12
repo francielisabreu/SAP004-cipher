@@ -24,7 +24,7 @@ voltar.onclick = function(){
 
 
 cifrar.onclick = function(){
-    if (boxMensagem == "" || offset.value == "") {
+    if (boxMensagem.value == "" || offset.value == "") {
         alert("Verifique se preencheu o campo mensagem e o valor de deslocamento");
 
     } else {
@@ -35,7 +35,7 @@ cifrar.onclick = function(){
 }
 
 descifrar.onclick = function(){
-    if (boxMensagem == "" || offset.value == "") {
+    if (boxMensagem.value == "" || offset.value == "") {
         alert("Verifique se preencheu o campo mensagem e o valor de deslocamento");
         
 
