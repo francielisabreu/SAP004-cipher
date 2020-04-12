@@ -1,19 +1,16 @@
-import cipher from './cipher.js';
+import cipher from './cipher.js'
 
-let btnStart = document.getElementById("start")
-let page01 = document.getElementById("page01")
-let page02 = document.getElementById("page02")
-let btnVoltar = document.getElementById("voltar")
+let cifrar = document.getElementById("cifrar")
+let descifrar = document.getElementById("descifrar")
+let strat = document.getElementById("start")
+let voltar = document.getElementById("voltar")
+let page1 = document.getElementById("page01")
+let page2 = document.getElementById("page02")
+let boxMensagem = document.getElementById("boxMensagem")
+let offset = document.getElementById("offset")
 
-
-btnStart.onclick = function(){
-    page01.style.display = "none"
-    page02.style.display = "block"
+cifrar.onclick = function(){
+    document.getElementById("cifrar").value;
+    document.getElementById("boxMensagem").innerHTML = cipher.encode(offset.value, boxMensagem.value)
 }
-
-btnVoltar.onclick = function(){
-    page01.style.display = "flex"
-    page02.style.display = "none"
-}
-
 console.log(cipher);
