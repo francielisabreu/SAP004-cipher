@@ -1,5 +1,6 @@
 import cipher from './cipher.js'
 
+
 let cifrar = document.getElementById("cifrar")
 let descifrar = document.getElementById("descifrar")
 let strat = document.getElementById("start")
@@ -32,6 +33,7 @@ cifrar.onclick = function(){
         
     }
 }
+
 descifrar.onclick = function(){
     if (boxMensagem == "" || offset.value == "") {
         alert("Verifique se preencheu o campo mensagem e o valor de deslocamento");
@@ -39,8 +41,6 @@ descifrar.onclick = function(){
 
     } else {
         result_name.innerHTML = cipher.decode(offset.value, boxMensagem.value)
-        result.style.display = "block"
-        
+        result.style.display = "block"        
     }
 }
-console.log(cipher);
