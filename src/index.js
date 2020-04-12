@@ -22,22 +22,19 @@ voltar.onclick = function(){
     page2.style.display = "none"
 }
 
-
 cifrar.onclick = function(){
     if (boxMensagem.value == "" || offset.value == "") {
         alert("Verifique se preencheu o campo mensagem e o valor de deslocamento");
 
     } else {
         result_name.innerHTML = cipher.encode(offset.value, boxMensagem.value)
-            result.style.display = "block"
-        
+            result.style.display = "block"        
     }
 }
 
 descifrar.onclick = function(){
     if (boxMensagem.value == "" || offset.value == "") {
-        alert("Verifique se preencheu o campo mensagem e o valor de deslocamento");
-        
+        alert("Verifique se preencheu o campo mensagem e o valor de deslocamento");        
 
     } else {
         result_name.innerHTML = cipher.decode(offset.value, boxMensagem.value)
