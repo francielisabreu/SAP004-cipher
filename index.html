@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Caesar Cipher - Alunas Laboratoria</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+
+  <div class="contaneir">
+    <div id="page01" class="conteudo conteudo-primeiro">
+      <!--tela de introdução ao site e boas vindas-->
+      <div class="primeira-coluna">
+        <h2 class="titulo titulo-primeiro">Olá aula, seja bem vinda!</h2>
+        <p class="descricao">Aqui as suas mensagens serão cifradas com segurança.</p>
+        <p class="descricao">Compartilhe informações e diverta-se com essa experiência!</p>
+        <p class="descricao">Vamos começar?</p>
+        <!--botao de inicio -->
+        <button id="start" class="btn btn-primeiro">Start</button>
+      </div>
+      <div class="segunda-coluna">
+        <!--tela para saber mais sobre a laboratoria-->
+        <h2 class="titulo titulo-segundo">Como fazer parte?</h2>
+        <p class="descricao">Se você não faz parte da Laboratoria, não fique triste!</p>
+        <a href="https://www.laboratoria.la/br" class="href-btn" target="_blank">Saiba mais sobre este projeto e como
+          participar.</a>
+      </div>
+    </div>
+
+    <div id="page02" class="conteudo conteudo-segundo">
+      <!--tela para ensiando a usar-->
+      <div class="primeira-coluna">
+        <h2 class="titulo titulo-primeiro">Como usar?</h2>
+        <p class="descricao ">É tudo muito simple e fácil. Veja:</p>
+        <p class="descricao ">1) Você vai escrever uma mensagem bem legal.</p>
+        <p class="descricao ">2) Escolha o valor do deslocamento (1 até 25).</p>
+        <p class="descricao ">3) Clique na opção de cifra ou decifrar.</p>
+        <form class="form">
+          <!--campo para mensagem-->
+          <textarea id="boxMensagem" type="text" class="boxMensagem" cols="30" rows="6"
+            placeholder="Insira a sua mensagem" spellcheck="false" required></textarea>
+          <!--escolher o valor do desclocamento-->
+          <br>
+          <input id="offset" class="btn-value"  value="1" size="25" type="number" min="1"
+            max="25">
+          <!--botao codificar mensagem-->
+          <br>
+          <input id="cifrar" type="button" class="btn btn-primeiro" value="cifrar" >
+          <!--botao descodificar mensagem-->
+          <input id="descifrar" type="button" class="btn btn-primeiro" value="descifrar">
+          <br>
+          <br>
+          <section id="result" style="display: none;">
+            <h5 class="primeira-coluna">Resultado: </h5>
+            <input id="result-name" class="boxMensagem2"></input>
+          </section>
+          
+        </form>
+      </div>
+
+      <div class="segunda-coluna">
+        <h2 class="titulo titulo-segundo">Obrigada pela visita!</h2>
+        <button id="voltar" class="btn btn-primeiro">Voltar</button>
+      </div>      
+      
+    </div>
+  </div>
+    
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>
