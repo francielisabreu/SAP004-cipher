@@ -6,10 +6,8 @@
 } 
 
 body{
-    font-family: 'Sen', sans-serif;    
-    font-style: normal;
-    font-display: fallback;
-
+    font-family: 'Sen', sans-serif;       
+    
 }
 
 .contaneir{
@@ -17,40 +15,36 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f1f0ec;
+    background-color: #fffbeb;
 
 }
-
-
 .conteudo{    
     background-color: #fff;
-    border-radius: 10px;
-    width:960px;
-    height:60%;    
+    border-radius: 15px;
+    width:980px;
+    height:70%;    
     justify-content: space-between;
     align-items: center; 
-    position: relative;  
-    
-    
+    position: relative;        
 }
-
-
 .conteudo::before{
     content:"";
     position: absolute;
     background-color: #ffee00;
-    width:50%;
+    width:42%;
     height: 100%;   
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;    
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15x; 
+    left: 0;   
 }
 .titulo{
 
-    font-size: 25px;
+    font-size: 26px;
+    line-height:30px; 
+    font-weight:250; 
     font-weight:bold;    
     text-transform:capitalize;
 }
-
 .titulo-primeiro{
     color: #1a1a19;   
 }
@@ -59,10 +53,9 @@ body{
     color: #1a1a19;     
     
 }
-
 .descricao{    
-    font-size: 13px; 
-    font-weight:300;
+    font-size: 12px; 
+    font-weight:250;
     line-height:20px;    
     text-align: center;
 }
@@ -70,20 +63,6 @@ body{
 .descricao-primeira{        
     color: #1a1a19;      
     
-}
-.href-btn{
-    color: #1a1a19;
-    text-align: center;
-    font-size:13px;
-    font-weight:300;
-    line-height:20px;
-    margin: 1px;
-    cursor:pointer;
-    
-}
-
-.href-btn:hover{    
-    color: #ff00ff;         
 }
 
 .btn{
@@ -114,11 +93,27 @@ body{
     
 }
 
+.href-btn{
+    color: #1a1a19;
+    text-align: center;
+    font-size:13px;
+    font-weight:300;
+    line-height:20px;
+    margin: 1px;
+    cursor:pointer;    
+}
+.href-btn:hover{    
+    color: #ff00ff;         
+}
+
 .conteudo-primeiro{
     display: flex;
 }
 
+.conteudo-primeiro .segunda-coluna{
+z-index: 11;
 
+}
 
 .primeira-coluna{
     text-align: center;
@@ -134,10 +129,8 @@ body{
 }
 
 .conteudo-segundo {      
-    position: absolute;
-    display: flex;
-    
-    
+    position: relative;
+    display: none;     
 }
 
 .primeira-coluna-page02{
@@ -155,10 +148,7 @@ body{
 
 }
 
-
-
-
-.box-mensagem{    
+.boxMensagem{    
     border-radius: 5px;    
     border: 1px solid #1a1a19;
     background-color: #fdfbd3;
@@ -179,5 +169,3 @@ body{
     text-align: center;
     
 }
-
-
