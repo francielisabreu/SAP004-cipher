@@ -28,59 +28,22 @@ substituida por outra que se encontra há um número fixo de posições
 
 ## 2.  O Usuário
 
-O que eu tenho que fazer exatamente? Neste projeto você criará a primeira
-aplicação web do _bootcamp_. Nela o usuário poderá cifrar e decrifrar um texto
-indicando a chave de deslocamento (_offset_).
-
-O tema é livre. Você deve pensar em alguma situação de vida real em que seja
-necessário cifrar uma mensagem e pensar em como deve ser a experiência do
-usuário (tela, explicações, mensagens, cores, marca?, etc.). Algumas ideias de
-exemplo:
-
-* Mensagens secretas para alguma pessoa.
-* Ferramenta de mensagens internas de uma organização em uma zona de conflito.
-* Cifrar cartões de crédito.
-* Criar senhas seguras para email.
+Alunas da Laboratoria que desejam um ambiente seguro para trocar mensagens ou dicas de programação. O assunto pode ser diverso, mas a confiança de que tudo será confidencial é única. A ferramenta é somente para aluna da Laboratoria, caso você não faça parte, dentro da aplicação terá um link exclusivo para mais informações, clique nele e veja como participar!
 
 ## 3. O Projeto
 
-Neste projeto você aprenderá a construir uma aplicação web (_WebApp_) que irá
-interagir com o usuário final através do navegador utilizando HTML, CSS e
-JavaScript como ferramentas.
-
-Em outras palavras, você aprenderá:
-
-* Organizar o seu tempo e priorizar as tarefas em um ambiente com **alta
-  incerteza**.
-* Entender as **necessidade do usuário** e propor uma solução.
-* Entender a importância do processo de prototipação durante a criação de um
-  produto digital.
-* Conhecer os princípios básicos de desenho visual.
-* Utilizar _tags_ semânticas de HTML e elementos de formulário.
-* Mostrar elementos de formulário na tela usando **HTML** e **CSS**.
-* Utilizar diversos tipos de seletores no CSS: elementos, classe e id.
-* Utilizar o modelo de caixas do CSS (border, margin, padding).
-* Definir regras de estilo do CSS.
-* Permitir ao usuário interagir com elementos do DOM e fazer que a aplicação
-  responda (cifrar/decifrar) quando os **evento de DOM** ocorrerem.
-* Manipular _**strings**_ (cadeias de texto).
-* Usar **controle de fluxo** (loops, condicionais, ...).
-* Atualizar a tela com os resultados (**manipular o DOM**) através de
-  **innerHTML** ou **textContent**.
-* **Implementar uma função** dada a descrição do seu comportamento.
-* Verificar que as suas funções façam o esperado (**usando provas unitárias
-  (_unit test_) com Jest**).
-* Configurar a sua conta de git.
-* Fazer o _fork_ e _clone_ do repositório do projeto.
-* Manter o seu repositório remoto sempre atualizado (commit, pull, push).
-* Subir o seu projeto para o Github Pages.
+A aplicação permite Cifrar e Decifrar letras.
 
 ## 4.  A Interface
 
-* Este projeto deve ser resolvido individualmente.
-* O projeto será entregue subindo o seu código no GitHub (commit/push) e o
-  deploy será feito no GitHub Pages. Se não sabe o que é o GitHub, não se
-  preocupe, você aprendera durante o projeto.
+Na primeira tela, o usuário pode escolher entre começar ou saber mais sobre a Laboratoria.
+
+
+![tela-01-comeco-ou-fazer-parte](https://user-images.githubusercontent.com/61169584/79082515-e8f20780-7cfc-11ea-9546-1d4db4755e8a.JPG)
+
+Ou seja, a primeira coluna da esquerda, é para quem já é aula. Utilizando o botão START será dado literalmente o inicio da experiência da crifra.
+
+Na outra coluna, temos a opção de um link, no qual todas as informações para quem deseja saber mais sobre o projeto da Laboratoria possa entrar e se informar melhor.
 
 ## 5. Objetivos de aprendizagem
 
