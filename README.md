@@ -59,19 +59,19 @@ Construir uma aplicação web que interaja com o usuário através do navegador 
 
 ## Parte Obrigatória
 
-* [heavy_check_mark] README.md adicionar informação sobre o processo e decisões do desenho.
-* [heavy_check_mark] README.md explicar claramente quem são os usuários e as suas relações com o produto.
-* [heavy_check_mark] README.md explicar claramente como o produto soluciona os problemas/necessidades dos usuários.
-* [heavy_check_mark] Usar VanillaJS.
-* [heavy_check_mark] Não usar this.
-* [heavy_check_mark] Implementar cipher.encode.
-* [heavy_check_mark] Implementar cipher.decode.
-* [heavy_check_mark] Passar o linter com a configuração definida.
-* [heavy_check_mark] Passar as provas unitárias.
-* [heavy_check_mark] Testes unitários cubrindo 70% dos statements, functions e lines, e no mínimo 50% das branches.
+* [x] README.md adicionar informação sobre o processo e decisões do desenho.
+* [x] README.md explicar claramente quem são os usuários e as suas relações com o produto.
+* [x] README.md explicar claramente como o produto soluciona os problemas/necessidades dos   usuários.
+* [x] Usar VanillaJS.
+* [x] Não usar this.
+* [x] Implementar cipher.encode.
+* [x] Implementar cipher.decode.
+* [x] Passar o linter com a configuração definida.
+* [x] Passar as provas unitárias.
+* [x] Testes unitários cubrindo 70% dos statements, functions e lines, e no mínimo 50% das branches.
 
 ## Parte Opcional: "Hacker edition"
 
-* [x] Cifrar/decifrar minúsculas.
-* [x] Cifrar/decifrar outros caractéres (espações, pontuação, ç, á, ...).
-* [x] Permitir usar offset negativo.
+* [ ] Cifrar/decifrar minúsculas.
+* [ ] Cifrar/decifrar outros caractéres (espações, pontuação, ç, á, ...).
+* [ ] Permitir usar offset negativo.
