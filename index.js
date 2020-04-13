@@ -24,20 +24,20 @@ voltar.onclick = function(){
 
 cifrar.onclick = function(){
     if (boxMensagem.value == "" || offset.value == "") {
-        alert("Verifique se preencheu o campo mensagem e o valor de deslocamento");
+        alert("Verifique se preencheu o campo mensagem e o valor de deslocamento")
 
     } else {
         result_name.innerHTML = cipher.encode(offset.value, boxMensagem.value)
-            result.style.display = "block"        
+            result.style.display = "flex"        
     }
 }
 
 decifrar.onclick = function(){
     if (boxMensagem.value == "" || offset.value == "") {
-        alert("Verifique se preencheu o campo mensagem e o valor de deslocamento");        
+        alert("Verifique se preencheu o campo mensagem e o valor de deslocamento")      
 
     } else {
         result_name.innerHTML = cipher.decode(offset.value, boxMensagem.value)
-        result.style.display = "block"        
+        result.style.display = "flex"       
     }
 }
