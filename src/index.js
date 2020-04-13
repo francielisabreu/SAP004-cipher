@@ -2,7 +2,7 @@ import cipher from './cipher.js'
 
 
 let cifrar = document.getElementById("cifrar")
-let descifrar = document.getElementById("descifrar")
+let decifrar = document.getElementById("decifrar")
 let strat = document.getElementById("start")
 let voltar = document.getElementById("voltar")
 let page1 = document.getElementById("page01")
@@ -24,20 +24,20 @@ voltar.onclick = function(){
 
 cifrar.onclick = function(){
     if (boxMensagem.value == "" || offset.value == "") {
-        alert("Verifique se preencheu o campo mensagem e o valor de deslocamento");
+        alert("Verifique se preencheu o campo mensagem e o valor de deslocamento")
 
     } else {
         result_name.innerHTML = cipher.encode(offset.value, boxMensagem.value)
-            result.style.display = "block"        
+            result.style.display = "flex"        
     }
 }
 
-descifrar.onclick = function(){
+decifrar.onclick = function(){
     if (boxMensagem.value == "" || offset.value == "") {
-        alert("Verifique se preencheu o campo mensagem e o valor de deslocamento");        
+        alert("Verifique se preencheu o campo mensagem e o valor de deslocamento")      
 
     } else {
         result_name.innerHTML = cipher.decode(offset.value, boxMensagem.value)
-        result.style.display = "block"        
+        result.style.display = "flex"       
     }
 }
