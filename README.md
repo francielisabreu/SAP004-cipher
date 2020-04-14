@@ -38,8 +38,7 @@ A aplicação permite Cifrar e Decifrar letras.
 
 Na primeira tela, o usuário pode escolher entre começar ou saber mais sobre a Laboratoria.
 
-
-![tela-01-comeco-ou-fazer-parte](https://user-images.githubusercontent.com/61169584/79082515-e8f20780-7cfc-11ea-9546-1d4db4755e8a.JPG)
+![tela-01-comeco-ou-fazer-parte](https://user-images.githubusercontent.com/61169584/79270497-ace1b280-7e74-11ea-9d1b-3c6bf7d52e95.JPG)
 
 Ou seja, a primeira coluna da esquerda, é para quem já é aluna. Utilizando o botão START será dado literalmente o inicio da experiência da crifra.
 
@@ -47,7 +46,7 @@ Na outra coluna, temos a opção de um link, no qual todas as informações para
 
 Na segunda tela, o usuário pode escolher entre cifrar uma mensagem ou voltar para a tela inicial.
 
-![tela-02-cifrar-descifrar-ou-voltar](https://user-images.githubusercontent.com/61169584/79084075-4b043a00-7d08-11ea-9a3c-60e8450442ae.JPG)
+![tela-02-cifrar-descifrar-ou-voltar](https://user-images.githubusercontent.com/61169584/79270457-99cee280-7e74-11ea-838e-8b992e2a9299.JPG)
 
 Na coluna esquerda temos as instruções de como usar a aplicação, já na direita, o usuário recebe um agradecimento por ter visitado a página. Logo abaixo vemos um botão de voltar (de volta a primeira tela).
 
